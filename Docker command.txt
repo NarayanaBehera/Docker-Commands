@@ -1,0 +1,25 @@
+1. docker –version
+
+2. docker info
+
+3. docker ps
+
+4.  docker ps -a
+
+5. docker images
+
+6. docker stop <container id>
+
+7. docker kill <container id>
+
+8. docker rmi <container id>
+
+9. docker history <image-id> 
+
+10. docker history <image-id> 
+
+11. docker build -t  <image name> .
+
+12.docker-compose -f docker-compose-CeleryExecutor.yml up -d
+
+13.docker-compose run airflow-worker airflow users create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin
