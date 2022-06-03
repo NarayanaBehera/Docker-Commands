@@ -1,4 +1,4 @@
-1. docker –version
+1. docker –-version
 
 2. docker info
 
